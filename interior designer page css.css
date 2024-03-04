@@ -1,0 +1,218 @@
+
+ body {
+      font-family: arial;
+      background-image:url(https://images.pexels.com/photos/396547/pexels-photo-396547.jpeg?cs=srgb&dl=pexels-francesco-ungaro-396547.jpg&fm=jpg)
+
+    }
+
+    h2 {
+      text-align:center;
+      color: black;
+    }
+    iframe {margin: right;
+        float: right;
+        width: 40%;
+
+    }
+
+    
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    textarea {
+      width: 300%;
+      padding: 25px;
+      margin-bottom: 24px;
+      border: 5px;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    input[type="submit"] {
+      background-color: blue;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: progress;
+      float: right;
+    }
+
+    input[type="submit"]:hover {
+      background-color: blue;
+
+    }
+
+    form {
+      background-color:rgba(220, 220, 220, 0.8);;
+      padding: 10px;
+      border-radius: 50px;
+      float: center;
+      width: 50%; 
+      margin: left;
+
+      
+
+    }
+
+    ul {
+      list-style-type: none;
+      overflow: hidden;
+       position: fixed;
+       top: 3;
+      float: left;
+      margin-left: 52%;
+      
+    }
+
+    li {
+      float: right;
+    }
+
+    a {
+      display: inline-block;
+      padding: 10px 20px;
+      text-decoration: inherit;
+      color: black;
+      background-color: lemonchiffon;
+
+    }
+
+    a:hover {
+      background-color: blue;
+    }
+
+      .fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: green;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: blue;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: darkcyan;
+    color: white;
+  }
+      
+  footer{background-color: #373433;
+    float:initial;
+    width: 100%;
+    padding: 80px;
+    text-align: center;
+
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #fff;
+    padding: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    color: #6B240C;
+    
+}
+ul li a:hover{
+    text-decoration: underline;
+   
+}
+
+nav ul li {
+    margin-right: 20px;
+    
+}
+
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+.designers-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.designer-category {
+    margin-bottom: 40px;
+}
+
+.designer-profile {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+    display: flex;
+}
+
+.designer-profile img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.appointment-button {
+    padding: 10px 20px;
+    background-color: #6B240C;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    /*position: fixed;*/
+    bottom: 0;
+    width: 100%;
+}
+h1 h2{
+    color:#6B240C;
+}
